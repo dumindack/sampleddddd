@@ -63,6 +63,13 @@
     font-size: 20px
 }
 
+#txt7{
+    color: rgb(255, 255, 255);
+    font-size: 26px
+}
+
+
+
 .link {
     display: flex;
     width: 90px;
@@ -86,6 +93,7 @@
     top: -515px;
     left: 42%
 }
+
 
 .text {
     color: #aaa7a7;

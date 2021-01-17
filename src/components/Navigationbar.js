@@ -19,14 +19,16 @@ return(
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/"><h4>Home</h4></Nav.Link>
-      <Nav.Link href="#my rofile"><h4>My Profile</h4></Nav.Link>
+      <Nav.Link href="/profile"><h4>My Profile</h4></Nav.Link>
       <Nav.Link href="/register"><h4>Register</h4></Nav.Link>
-      <NavDropdown title="Choose" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">cake01</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">cake02</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">cake03</NavDropdown.Item>
+      <Nav.Link href="Login"><h4>Login</h4></Nav.Link>
+      <NavDropdown title="Choose From" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Birthday Cakes</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Cup Cakes</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Wedding Cakes</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Other Design Cakes</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <br />
