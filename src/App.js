@@ -6,6 +6,9 @@ import Navigationbar from './components/Navigationbar';
 import { Route, BrowserRouter } from "react-router-dom";
 import Home from './components/Home';
 import Seller from './components/Seller';
+import Footer from './components/Footer';
+import Page from './components/Pages/Privacy'
+
 
 
 
@@ -14,13 +17,22 @@ import Seller from './components/Seller';
     render(){
       return (
         <BrowserRouter>
-       <div>
-        <Navigationbar/>
-          <Route exact path='/' component={Home}/>
-          <Route path='/register' component={Seller}/>
+          <div>
+            <Navigationbar/>
+              <Route exact path='/' component={Home}/>
+              <Route path='/register' component={Seller}/>
+            
+          </div>
+          <Route path="/Page">
+            <Page />
+          </Route>
+
         
-       </div>
-    </BrowserRouter>
+        </BrowserRouter>
+        
+       
+        
+        
   );
   }
 }

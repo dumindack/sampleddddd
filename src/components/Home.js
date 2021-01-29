@@ -1,7 +1,6 @@
 
 import { Navbar, Carousel } from 'react-bootstrap';
 import React, { Component } from 'react';
-import Card from './Card';
 import Footer from './Footer'
 import icon from './../img/cake01.jpg';
 import icon1 from './../img/cake02.jpg';
@@ -50,9 +49,8 @@ export class home extends Component {
                 </Carousel.Item>
 
                 </Carousel>
-                {/* <Card/> */}
+               
 
-        
                 <Footer/>
             
             </div>

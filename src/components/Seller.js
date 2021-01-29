@@ -1,4 +1,4 @@
-import './CSS/todo.css'
+import './CSS/Seller.css'
 import { Sellers } from '../Actions/auth';
 import React, { useState } from "react";
 
@@ -70,7 +70,6 @@ const Seller = () => {
             
         )
     }
-
 
 
 export default Seller
